@@ -16,7 +16,8 @@ keep presss button-1 nrf52DK for 5 seconds to erase values and start with defaul
 Default Passoword : NistantriTech</br>
 
 How to Use:</br>
-extract repo in nrf sdk15.0.0 example folder </br>
-path should be like this </br>
-nRF5_SDK_15.0.0_a53641a\examples\NistantriTech\ibeacon_nrf52</br>
+extract repo anywhere
+Set SDK path
+	Project > Options > select Build > Project Macros
+	change D:\Nordic_Semiconductor\nRF5_SDK_15.0.0_a53641a to your path
 build using segger embedded studio and flash to nrf52DK/nrf52832
